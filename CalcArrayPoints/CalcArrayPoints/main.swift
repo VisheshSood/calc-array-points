@@ -13,55 +13,56 @@ print("Hello, World!")
 func add(left:Int,right:Int) -> Int {
     return left + right
 }
-//calculator function for subtract
-func subtract (x:Int, y:Int) -> Int {
-    return x - y
+
+func subtract(left:Int,right:Int) -> Int{
+    return left - right
 }
 
-//calculator function for multiply
-func multiply (x:Int, y:Int) -> Int {
-    return x * y
+func multiply(left:Int,right:Int) -> Int {
+    return left * right
 }
 
-//calculator function for divide
-func divide (x:Int, y:Int) -> Int {
-    return x / y
+func divide(left:Int,right:Int) -> Int {
+    return left / right
 }
 
-//generic math operation
+
 func mathOperation(left : Int, right: Int, operation : (Int, Int) -> Int) -> Int {
     return operation(left, right)
 }
 
 
 //Array fun
-func arrayAdd(numArray:[Int]) -> Int {
+func add(array:[Int]) -> Int{
     var total = 0
-    for x in numArray {
-        total += numArray[x]
+    for value in array {
+        total += value
     }
     return total
 }
 
-func multArray(numArray: [Int]) -> Int{
+func multiply(array:[Int]) -> Int{
     var total = 1
-    for x in numArray {
-        total *= numArray[x]
+    for value in array {
+        total *= value
     }
     return total
 }
 
-func countArray(numArray: [Int]) -> Int {
-    return numArray.count
+func count(array:[Int]) -> Int {
+    return array.count
 }
 
-func avgArray(numArray: [Int]) -> Int {
-    let count = numArray.count
+func average(array:[Int]) -> Int {
     var total = 0
-    for x in numArray {
-        total += numArray[x]
+    for value in array {
+        total += value
     }
-    return total / count
+    return total / array.count
+}
+
+func reduce(array: [Int], operation: ([Int]) -> Int) -> Int {
+    return operation(array)
 }
 
 
