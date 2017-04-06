@@ -71,26 +71,57 @@ func reduce(array: [Int], operation: ([Int]) -> Int) -> Int {
 }
 
 //Points
-func addPoints(point1: (x:Int, y:Int), point2: (x:Int, y:Int)) -> (Int, Int) {
-    return (point1.x + point2.x, point1.y + point2.y)
+func add(p1:(x:Int,y:Int), p2:(x:Int,y:Int)) -> (Int, Int) {
+    return (p1.x+p2.x,p1.y+p2.y)
 }
 
-func subtractPoints(point1: (x:Int, y:Int), point2: (x:Int, y:Int)) -> (Int, Int) {
-    return (point1.x - point2.x, point1.y - point2.y)
+func subtract(p1:(x:Int,y:Int), p2:(x:Int,y:Int)) -> (Int, Int) {
+    return (p1.x-p2.x,p1.y-p2.y)
 }
 
-func addDictionaries (dictionary1: [String: Double], dictionary2: [String: Double]) ->  [String: Double]{
-    var toReturn = [String: Double]()
-    if dictionary1.keys.contains("x") && dictionary2.keys.contains("x") {
-        toReturn["x"] = dictionary1["x"]! + dictionary2["x"]!
+func add(p1: Dictionary <String, Int>?, p2: Dictionary <String, Int>?) -> Dictionary <String, Int>? {
+    if(p1 == nil || p2 == nil){
+        return nil
     }
-    return toReturn
+    return [
+        "x" : p1!["x"]! + p2!["x"]!,
+        "y" : p1!["y"]! + p2!["y"]!,
+    ]
+    
 }
 
-func subtractDictionaries (dictionary1: [String: Double], dictionary2: [String: Double]) ->  [String: Double] {
-    var toReturn = [String: Double]()
-    if dictionary1.keys.contains("y") && dictionary2.keys.contains("y") {
-        toReturn["y"] = dictionary1["y"]! + dictionary2["y"]!
+func add(p1: Dictionary <String, Double>?, p2: Dictionary <String, Double>?) -> Dictionary <String, Double>? {
+    if(p1 == nil || p2 == nil || (p1?.count)! <= 2||(p2?.count)! <= 2 ){
+        return nil
     }
-    return toReturn
+    
+    return [
+        "x" : p1!["x"]! + p2!["x"]!,
+        "y" : p1!["y"]! + p2!["y"]!,
+    ]
+}
+
+func subtract(p1: Dictionary <String, Int>?, p2: Dictionary <String, Int>?) -> Dictionary <String, Int>? {
+    if(p1 == nil || p2 == nil || (p1?.count)! <= 2||(p2?.count)! <= 2 ){
+        
+        return nil
+    }
+    
+    return [
+        "x" : p1!["x"]! - p2!["x"]!,
+        "y" : p1!["y"]! - p2!["y"]!,
+    ]
+    
+}
+
+func subtract(p1: Dictionary <String, Double>?, p2: Dictionary <String, Double>?) -> Dictionary <String, Double>? {
+    if(p1 == nil || p2 == nil || (p1?.count)! <= 2||(p2?.count)! <= 2 ){
+        
+        return nil
+    }
+    return [
+        "x" : p1!["x"]! - p2!["x"]!,
+        "y" : p1!["y"]! - p2!["y"]!,
+    ]
+    
 }
