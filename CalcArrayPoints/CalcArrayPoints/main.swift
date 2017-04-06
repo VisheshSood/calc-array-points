@@ -10,11 +10,9 @@ import Foundation
 
 print("Hello, World!")
 
-//calculator function for add
-func add (x:Int, y:Int) -> Int {
-    return x + y
+func add(left:Int,right:Int) -> Int {
+    return left + right
 }
-
 //calculator function for subtract
 func subtract (x:Int, y:Int) -> Int {
     return x - y
@@ -31,8 +29,8 @@ func divide (x:Int, y:Int) -> Int {
 }
 
 //generic math operation
-func mathOperation (x:Int, y:Int, op: (Int, Int) -> Int) -> Int {
-    return op(x, y)
+func mathOperation(left : Int, right: Int, operation : (Int, Int) -> Int) -> Int {
+    return operation(left, right)
 }
 
 
@@ -68,8 +66,8 @@ func avgArray(numArray: [Int]) -> Int {
 
 
 //generic math operation
-func reduce(numArray: [Int], op: ([Int]) -> Int, total: Int? = 0) -> Int {
-    return op(numArray)
+func reduce(array: [Int], operation: ([Int]) -> Int) -> Int {
+    return operation(array)
 }
 
 //Points

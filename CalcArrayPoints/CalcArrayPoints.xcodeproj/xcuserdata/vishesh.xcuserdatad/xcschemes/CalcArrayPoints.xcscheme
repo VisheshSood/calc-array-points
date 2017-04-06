@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7A038A801E948D3900D5E716"
+               BlueprintIdentifier = "7A3A47511E95FFBA0090C83A"
                BuildableName = "CalcArrayPoints"
                BlueprintName = "CalcArrayPoints"
                ReferencedContainer = "container:CalcArrayPoints.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7A038A8E1E948D5C00D5E716"
+               BlueprintIdentifier = "7A3A475F1E9600240090C83A"
                BuildableName = "CalcArrayPointsTest.xctest"
                BlueprintName = "CalcArrayPointsTest"
                ReferencedContainer = "container:CalcArrayPoints.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7A038A801E948D3900D5E716"
+            BlueprintIdentifier = "7A3A47511E95FFBA0090C83A"
             BuildableName = "CalcArrayPoints"
             BlueprintName = "CalcArrayPoints"
             ReferencedContainer = "container:CalcArrayPoints.xcodeproj">
@@ -65,7 +65,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7A038A801E948D3900D5E716"
+            BlueprintIdentifier = "7A3A47511E95FFBA0090C83A"
             BuildableName = "CalcArrayPoints"
             BlueprintName = "CalcArrayPoints"
             ReferencedContainer = "container:CalcArrayPoints.xcodeproj">
@@ -84,7 +84,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7A038A801E948D3900D5E716"
+            BlueprintIdentifier = "7A3A47511E95FFBA0090C83A"
             BuildableName = "CalcArrayPoints"
             BlueprintName = "CalcArrayPoints"
             ReferencedContainer = "container:CalcArrayPoints.xcodeproj">

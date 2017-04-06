@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A038A851E948D3900D5E716 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A038A841E948D3900D5E716 /* main.swift */; };
-		7A038A9B1E948F9200D5E716 /* CalcArrayPointsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A038A9A1E948F9200D5E716 /* CalcArrayPointsUnitTests.swift */; };
+		7A3A47561E95FFBA0090C83A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3A47551E95FFBA0090C83A /* main.swift */; };
+		7A3A47691E9600690090C83A /* CalcArrayPointsUnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3A47681E9600690090C83A /* CalcArrayPointsUnitTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		7A038A7F1E948D3900D5E716 /* CopyFiles */ = {
+		7A3A47501E95FFBA0090C83A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,23 +24,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		7A038A811E948D3900D5E716 /* CalcArrayPoints */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CalcArrayPoints; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A038A841E948D3900D5E716 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		7A038A8F1E948D5C00D5E716 /* CalcArrayPointsTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcArrayPointsTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A038A931E948D5C00D5E716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A038A991E948F9100D5E716 /* CalcArrayPointsTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CalcArrayPointsTest-Bridging-Header.h"; sourceTree = "<group>"; };
-		7A038A9A1E948F9200D5E716 /* CalcArrayPointsUnitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcArrayPointsUnitTests.swift; sourceTree = "<group>"; };
+		7A3A47521E95FFBA0090C83A /* CalcArrayPoints */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CalcArrayPoints; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A3A47551E95FFBA0090C83A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		7A3A47601E9600240090C83A /* CalcArrayPointsTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalcArrayPointsTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A3A47641E9600240090C83A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A3A47681E9600690090C83A /* CalcArrayPointsUnitTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcArrayPointsUnitTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7A038A7E1E948D3900D5E716 /* Frameworks */ = {
+		7A3A474F1E95FFBA0090C83A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A038A8C1E948D5C00D5E716 /* Frameworks */ = {
+		7A3A475D1E9600240090C83A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -50,38 +49,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7A038A781E948D3900D5E716 = {
+		7A3A47491E95FFBA0090C83A = {
 			isa = PBXGroup;
 			children = (
-				7A038A831E948D3900D5E716 /* CalcArrayPoints */,
-				7A038A901E948D5C00D5E716 /* CalcArrayPointsTest */,
-				7A038A821E948D3900D5E716 /* Products */,
+				7A3A47541E95FFBA0090C83A /* CalcArrayPoints */,
+				7A3A47611E9600240090C83A /* CalcArrayPointsTest */,
+				7A3A47531E95FFBA0090C83A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7A038A821E948D3900D5E716 /* Products */ = {
+		7A3A47531E95FFBA0090C83A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7A038A811E948D3900D5E716 /* CalcArrayPoints */,
-				7A038A8F1E948D5C00D5E716 /* CalcArrayPointsTest.xctest */,
+				7A3A47521E95FFBA0090C83A /* CalcArrayPoints */,
+				7A3A47601E9600240090C83A /* CalcArrayPointsTest.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7A038A831E948D3900D5E716 /* CalcArrayPoints */ = {
+		7A3A47541E95FFBA0090C83A /* CalcArrayPoints */ = {
 			isa = PBXGroup;
 			children = (
-				7A038A841E948D3900D5E716 /* main.swift */,
+				7A3A47551E95FFBA0090C83A /* main.swift */,
 			);
 			path = CalcArrayPoints;
 			sourceTree = "<group>";
 		};
-		7A038A901E948D5C00D5E716 /* CalcArrayPointsTest */ = {
+		7A3A47611E9600240090C83A /* CalcArrayPointsTest */ = {
 			isa = PBXGroup;
 			children = (
-				7A038A9A1E948F9200D5E716 /* CalcArrayPointsUnitTests.swift */,
-				7A038A931E948D5C00D5E716 /* Info.plist */,
-				7A038A991E948F9100D5E716 /* CalcArrayPointsTest-Bridging-Header.h */,
+				7A3A47681E9600690090C83A /* CalcArrayPointsUnitTests.swift */,
+				7A3A47641E9600240090C83A /* Info.plist */,
 			);
 			path = CalcArrayPointsTest;
 			sourceTree = "<group>";
@@ -89,13 +87,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7A038A801E948D3900D5E716 /* CalcArrayPoints */ = {
+		7A3A47511E95FFBA0090C83A /* CalcArrayPoints */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A038A881E948D3900D5E716 /* Build configuration list for PBXNativeTarget "CalcArrayPoints" */;
+			buildConfigurationList = 7A3A47591E95FFBA0090C83A /* Build configuration list for PBXNativeTarget "CalcArrayPoints" */;
 			buildPhases = (
-				7A038A7D1E948D3900D5E716 /* Sources */,
-				7A038A7E1E948D3900D5E716 /* Frameworks */,
-				7A038A7F1E948D3900D5E716 /* CopyFiles */,
+				7A3A474E1E95FFBA0090C83A /* Sources */,
+				7A3A474F1E95FFBA0090C83A /* Frameworks */,
+				7A3A47501E95FFBA0090C83A /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -103,16 +101,16 @@
 			);
 			name = CalcArrayPoints;
 			productName = CalcArrayPoints;
-			productReference = 7A038A811E948D3900D5E716 /* CalcArrayPoints */;
+			productReference = 7A3A47521E95FFBA0090C83A /* CalcArrayPoints */;
 			productType = "com.apple.product-type.tool";
 		};
-		7A038A8E1E948D5C00D5E716 /* CalcArrayPointsTest */ = {
+		7A3A475F1E9600240090C83A /* CalcArrayPointsTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A038A941E948D5C00D5E716 /* Build configuration list for PBXNativeTarget "CalcArrayPointsTest" */;
+			buildConfigurationList = 7A3A47651E9600240090C83A /* Build configuration list for PBXNativeTarget "CalcArrayPointsTest" */;
 			buildPhases = (
-				7A038A8B1E948D5C00D5E716 /* Sources */,
-				7A038A8C1E948D5C00D5E716 /* Frameworks */,
-				7A038A8D1E948D5C00D5E716 /* Resources */,
+				7A3A475C1E9600240090C83A /* Sources */,
+				7A3A475D1E9600240090C83A /* Frameworks */,
+				7A3A475E1E9600240090C83A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -120,52 +118,51 @@
 			);
 			name = CalcArrayPointsTest;
 			productName = CalcArrayPointsTest;
-			productReference = 7A038A8F1E948D5C00D5E716 /* CalcArrayPointsTest.xctest */;
+			productReference = 7A3A47601E9600240090C83A /* CalcArrayPointsTest.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7A038A791E948D3900D5E716 /* Project object */ = {
+		7A3A474A1E95FFBA0090C83A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Vishesh Sood";
 				TargetAttributes = {
-					7A038A801E948D3900D5E716 = {
+					7A3A47511E95FFBA0090C83A = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = E9YGY784YY;
 						ProvisioningStyle = Automatic;
 					};
-					7A038A8E1E948D5C00D5E716 = {
+					7A3A475F1E9600240090C83A = {
 						CreatedOnToolsVersion = 8.3;
 						DevelopmentTeam = E9YGY784YY;
-						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 7A038A7C1E948D3900D5E716 /* Build configuration list for PBXProject "CalcArrayPoints" */;
+			buildConfigurationList = 7A3A474D1E95FFBA0090C83A /* Build configuration list for PBXProject "CalcArrayPoints" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7A038A781E948D3900D5E716;
-			productRefGroup = 7A038A821E948D3900D5E716 /* Products */;
+			mainGroup = 7A3A47491E95FFBA0090C83A;
+			productRefGroup = 7A3A47531E95FFBA0090C83A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7A038A801E948D3900D5E716 /* CalcArrayPoints */,
-				7A038A8E1E948D5C00D5E716 /* CalcArrayPointsTest */,
+				7A3A47511E95FFBA0090C83A /* CalcArrayPoints */,
+				7A3A475F1E9600240090C83A /* CalcArrayPointsTest */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7A038A8D1E948D5C00D5E716 /* Resources */ = {
+		7A3A475E1E9600240090C83A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -175,26 +172,26 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7A038A7D1E948D3900D5E716 /* Sources */ = {
+		7A3A474E1E95FFBA0090C83A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A038A851E948D3900D5E716 /* main.swift in Sources */,
+				7A3A47561E95FFBA0090C83A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A038A8B1E948D5C00D5E716 /* Sources */ = {
+		7A3A475C1E9600240090C83A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A038A9B1E948F9200D5E716 /* CalcArrayPointsUnitTests.swift in Sources */,
+				7A3A47691E9600690090C83A /* CalcArrayPointsUnitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		7A038A861E948D3900D5E716 /* Debug */ = {
+		7A3A47571E95FFBA0090C83A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,7 +240,7 @@
 			};
 			name = Debug;
 		};
-		7A038A871E948D3900D5E716 /* Release */ = {
+		7A3A47581E95FFBA0090C83A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,7 +281,7 @@
 			};
 			name = Release;
 		};
-		7A038A891E948D3900D5E716 /* Debug */ = {
+		7A3A475A1E95FFBA0090C83A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = E9YGY784YY;
@@ -293,7 +290,7 @@
 			};
 			name = Debug;
 		};
-		7A038A8A1E948D3900D5E716 /* Release */ = {
+		7A3A475B1E95FFBA0090C83A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEVELOPMENT_TEAM = E9YGY784YY;
@@ -302,10 +299,9 @@
 			};
 			name = Release;
 		};
-		7A038A951E948D5C00D5E716 /* Debug */ = {
+		7A3A47661E9600240090C83A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = E9YGY784YY;
 				INFOPLIST_FILE = CalcArrayPointsTest/Info.plist;
@@ -313,23 +309,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = visheshsood.com.CalcArrayPointsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OBJC_BRIDGING_HEADER = "CalcArrayPointsTest/CalcArrayPointsTest-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		7A038A961E948D5C00D5E716 /* Release */ = {
+		7A3A47671E9600240090C83A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = E9YGY784YY;
 				INFOPLIST_FILE = CalcArrayPointsTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = visheshsood.com.CalcArrayPointsTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "CalcArrayPointsTest/CalcArrayPointsTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 			};
@@ -338,32 +330,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7A038A7C1E948D3900D5E716 /* Build configuration list for PBXProject "CalcArrayPoints" */ = {
+		7A3A474D1E95FFBA0090C83A /* Build configuration list for PBXProject "CalcArrayPoints" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A038A861E948D3900D5E716 /* Debug */,
-				7A038A871E948D3900D5E716 /* Release */,
+				7A3A47571E95FFBA0090C83A /* Debug */,
+				7A3A47581E95FFBA0090C83A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A038A881E948D3900D5E716 /* Build configuration list for PBXNativeTarget "CalcArrayPoints" */ = {
+		7A3A47591E95FFBA0090C83A /* Build configuration list for PBXNativeTarget "CalcArrayPoints" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A038A891E948D3900D5E716 /* Debug */,
-				7A038A8A1E948D3900D5E716 /* Release */,
+				7A3A475A1E95FFBA0090C83A /* Debug */,
+				7A3A475B1E95FFBA0090C83A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		7A038A941E948D5C00D5E716 /* Build configuration list for PBXNativeTarget "CalcArrayPointsTest" */ = {
+		7A3A47651E9600240090C83A /* Build configuration list for PBXNativeTarget "CalcArrayPointsTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A038A951E948D5C00D5E716 /* Debug */,
-				7A038A961E948D5C00D5E716 /* Release */,
+				7A3A47661E9600240090C83A /* Debug */,
+				7A3A47671E9600240090C83A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7A038A791E948D3900D5E716 /* Project object */;
+	rootObject = 7A3A474A1E95FFBA0090C83A /* Project object */;
 }

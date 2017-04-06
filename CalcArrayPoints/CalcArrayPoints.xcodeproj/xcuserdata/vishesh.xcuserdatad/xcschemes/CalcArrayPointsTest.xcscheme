@@ -16,7 +16,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7A038A8E1E948D5C00D5E716"
+               BlueprintIdentifier = "7A3A475F1E9600240090C83A"
                BuildableName = "CalcArrayPointsTest.xctest"
                BlueprintName = "CalcArrayPointsTest"
                ReferencedContainer = "container:CalcArrayPoints.xcodeproj">
